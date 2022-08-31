@@ -5,7 +5,7 @@ import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [SearchFormComponent],
-  imports: [CommonModule, MatSelectModule],
+  imports: [CommonModule, MatSelectModule, MatSelectModule],
   exports: [SearchFormComponent],
 })
 export class SharedModule {}

@@ -6,5 +6,24 @@ fieldset#search {
   border-bottom: 1px solid #ccc;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.inline {
+  display: flex;
+}
+.left {
+  display: flex;
+  float: left;
+  margin-right: 133px;
+}
+.right {
+  display: flex;
+  float: right;
+}
